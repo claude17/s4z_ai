@@ -44,7 +44,7 @@ app.post('/', async (req, res) => {
     res.status(500).send(error || 'Something went wrong');
   }
 })
-const cors=require("cors");
+
 const corsOptions ={
    origin:'*', 
    credentials:true,            //access-control-allow-credentials:true
