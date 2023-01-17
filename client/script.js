@@ -88,6 +88,7 @@ const handleSubmit = async (e) => {
 
     const response = await fetch('https://s4z.onrender.com/', {
         mode: 'cors',
+        credentials: 'include',
         method: 'POST',
         headers: {
             'Content-Type': 'application/json',
