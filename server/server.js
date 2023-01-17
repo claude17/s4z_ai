@@ -46,7 +46,7 @@ app.post('/', async (req, res) => {
 })
 
 const corsOptions ={
-   origin:'*', 
+   origin:https://s4z.onrender.com/, 
    credentials:true,            //access-control-allow-credentials:true
    optionSuccessStatus:200,
 }
