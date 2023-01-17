@@ -46,7 +46,7 @@ app.post('/', async (req, res) => {
 })
 
 const corsOptions ={
-   origin:https://s4z.onrender.com/, 
+   origin:https://s4z-ai.vercel.app/, 
    credentials:true,            //access-control-allow-credentials:true
    optionSuccessStatus:200,
 }
